@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Quarter-tone Piano</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body style="background-color:#FCFCFC">
+    <h1>Quarter-tone Piano</h1>
+    <p>Soundwave shape:</p>
+    <input type="radio" name="prefWF" id="sine" value="sine">Sine</input>
+    <input type="radio" name="prefWF" id="triangle" value="triangle">Triangle</input>
+    <input type="radio" name="prefWF" id="square" checked="checked" value="square">Square</input>
+    <input type="radio" name="prefWF" id="sawtooth" value="sawtooth">Sawtooth</input>
+    <p>Note: + denotes a half-sharp and - denotes a half-flat here.</p>
+    <p>This site is currently not mobile-friendly; please use a computer.</p>
+    <div align="center">
+        <button class="white" id="n0">C</button>
+        <button class="gray" id="n1">C+</button>
+        <button class="black" id="n2">C♯/D♭</button>
+        <button class="gray" id="n3">D-</button>
+        <button class="white" id="n4">D</button>
+        <button class="gray" id="n5">D+</button>
+        <button class="black" id="n6">D♯/E♭</button>
+        <button class="gray" id="n7">E-</button>
+        <button class="white" id="n8">E</button>
+        <button class="gray" id="n9">E+/F-</button>
+        <button class="white" id="n10">F</button>
+        <button class="gray" id="n11">F+</button>
+        <button class="black" id="n12">F♯/G♭</button>
+        <button class="gray" id="n13">G-</button>
+        <button class="white" id="n14">G</button>
+        <button class="gray" id="n15">G+</button>
+        <button class="black" id="n16">G♯/A♭</button>
+        <button class="gray" id="n17">A-</button>
+        <button class="white" id="n18">A</button>
+        <button class="gray" id="n19">A+</button>
+        <button class="black" id="n20">A♯/B♭</button>
+        <button class="gray" id="n21">B-</button>
+        <button class="white" id="n22">B</button>
+        <button class="gray" id="n23">B+/C-</button>
+        <button class="white" id="n24">C</button>
+    </div>
+
+    <div class="footer">
+        <p>Credits to <a href="https://github.com/escottalexander">escottalexander</a> for <a href="https://github.com/escottalexander/simpleTones.js">simpleTones.js</a></p>
+        <p>Made with ❤️ by Yuto Nishida</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="src/simpleTones.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

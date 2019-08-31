@@ -1,0 +1,149 @@
+h1 {
+    font-family: "Raleway", sans-serif;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e7e7e7;
+    color: #000000;
+    text-align: center;
+}
+
+button {
+    position: absolute;
+    font-family: "Raleway", sans-serif;
+}
+
+.white {
+    top: 450px;
+    width: 100px;
+    height: 150px;
+
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.gray {
+    top: 400px;
+    width: 50px;
+    height: 50px;
+
+    background-color: #e7e7e7;
+    color: #000000;
+}
+
+.black {
+    top: 250px;
+    width: 100px;
+    height: 150px;
+
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+#n0 {
+    left:100px;
+}
+
+#n1 {
+    left: 150px;
+}
+
+#n2 {
+    left: 150px;
+}
+
+#n3 {
+    left: 200px;
+}
+
+#n4 {
+    left: 200px;
+}
+
+#n5 {
+    left: 250px;
+}
+
+#n6 {
+    left: 250px;
+}
+
+#n7 {
+    left: 300px;
+}
+
+#n8 {
+    left: 300px;
+}
+
+#n9 {
+    left: 375px;
+}
+
+#n10 {
+    left: 400px;
+}
+
+#n11 {
+    left: 450px;
+}
+
+#n12 {
+    left: 450px;
+}
+
+#n13 {
+    left: 500px;
+}
+
+#n14 {
+    left: 500px;
+}
+
+#n15 {
+    left: 550px;
+}
+
+#n16 {
+    left: 550px;
+}
+
+#n17 {
+    left: 600px;
+}
+
+#n18 {
+    left: 600px;
+}
+
+#n19 {
+    left: 650px;
+}
+
+#n20 {
+    left: 650px;
+}
+
+#n21 {
+    left: 700px;
+}
+
+#n22 {
+    left: 700px;
+}
+
+#n23 {
+    left: 775px;
+}
+
+#n24 {
+    left: 800px;
+}
